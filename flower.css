@@ -286,6 +286,29 @@ body {
   top: 230px;
 }
 
+.letter {
+  margin-top: 420px; /* pushes text below the flower */
+  text-align: center;
+  color: #f5f5f5;
+  font-family: "Georgia", serif;
+  font-size: 20px;
+  line-height: 1.6;
+  padding: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(255, 192, 203, 0.4);
+  animation: fadeIn 3s ease-in-out;
+}
+
+/*Letter*/
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
 /* Animations */
 @keyframes bloom2 {
   50% {
@@ -350,3 +373,4 @@ body {
     opacity: 0;
   }
 }
+
